@@ -1,3 +1,5 @@
+let obj = JSON.parse($response.body);
+obj ={
 {
   "status" : "success",
   "data" : {
@@ -55,3 +57,5 @@
     }
   }
 }
+}
+$done({body: JSON.stringify(obj)});
