@@ -308,14 +308,6 @@ https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-re
 ^https:\/\/api\.lichviet\.org\/user\/premiumstatus$ url script-response-body https://raw.githubusercontent.com/shubhamgote/volt/main/script/lichviet.js
 ^https:\/\/api\.lichviet\.org\/user\/linkdetail$ url script-response-body https://raw.githubusercontent.com/shubhamgote/volt/main/script/lichviet2.js
 
-##wps makexp
-;^https:\/\/account\.wps\.com/\api\/users\/.+ url script-response-body https://raw.githubusercontent.com/langkhach270389/Scripting/master/wps.js
-
-#VideoStar
-^https?:\/\/.*\.videostarapp\.com\/scripts\/subsNew\.php url script-response-body https://raw.githubusercontent.com/langkhach270389/Scripting/master/VideoStar.js
-
-#Textnow
-^https:\/\/api\.textnow\.me\/api2.0\/users\/.* url script-response-body https://raw.githubusercontent.com/langkhach270389/Scripting/master/Textnow.js
 
 #Fafaria
 ^https:\/\/api\.farfaria\.com\/users\/sign_in.json*  url 302 https://raw.githubusercontent.com/shubhamgote/volt/main/script/Fafaria.json
